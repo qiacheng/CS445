@@ -7,7 +7,7 @@ def main():
 
     process.read_csv()
     process.load_data()
-    process.apply_learning_algo(1)
+    process.apply_learning_algo(0.1)
 
 
 

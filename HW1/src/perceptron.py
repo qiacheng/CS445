@@ -2,10 +2,11 @@
 
 class Perceptron():
 
-    def __init__(self, bias, weight, label):
-        self.bias = bias
+    def __init__(self,  bias_weight, weight, label, wx):
+
+        self.bias_weight = bias_weight
         self.weight = weight
         self.label = label
-
+        self.wx = wx
 
 
