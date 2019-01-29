@@ -1,7 +1,6 @@
 #Qiacheng Li
 #CS445
 #HW1
-
 from processing import Processing
 
 
@@ -11,7 +10,7 @@ def main():
 
     process.read_csv()
     process.load_data()
-    process.apply_learning_algo(0.01)
+    process.apply_learning_algo(1)
 
 
 
